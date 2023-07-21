@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+.all{
+	background-color: lightcoral;
+	height: auto;
+}
+
+.first{
+	width: 750px;
+	padding: 5px 10px;
+	text-align: left;
+	margin-left: 450px;
+	margin-bottom: 5px;
+}
+
+.first h2{
+	color: black;
+	font-size: 35px;
+	font-weight: bolder;
+	font-family: 'archivo';
+	margin-bottom: 15px;
+}
+
+.first p{
+	color: black;
+	font-size: 14px;
+	font-family: 'archivo';
+	margin-bottom: 15px;
+}
+
+form{
+	width: 355px;
+	margin: 10px 10px;
+	position: fixed;
+	left: 40px;
+	top: 20px;
+}
+
+form fieldset{
+	text-align: center;
+	font-family: 'archivo';
+	font-size: 20px;
+	color: black;
+	border: 4px groove #bf715a;
+}
+
+form input[type=text]{
+	font-family: 'archivo';
+	margin-top: 10px;
+	border: 2px groove #bf715a;
+	width: 200px;
+	height: 25px;
+	padding: 2px 2px;
+}
+
+form input[type=password]{
+	font-family: 'archivo';
+	margin-top: 10px;
+	width: 200px;
+	height: 25px;
+	padding: 2px 2px;
+	border: 2px groove #bf715a;
+	margin-bottom: 10px;
+}
+
+form a{
+	font-family: 'archivo';
+	font-size: 7px;
+	color: black;
+	text-decoration: none;
+}
+
+form input[type=submit]{
+	border: 1px groove #bf715a;
+	font-family: 'archivo';
+	margin-bottom: 15px;
+	margin-top: 10px;
+	padding: 2px 2px;
+
+}
+
+.fixed{
+	width: 355px;
+	height: auto;
+	border: 4px groove #bf715a;
+	position: fixed;
+	left: 50px;
+	top: 275px;
+}
+
+h3{
+	color: black;
+	font-family: 'archivo';
+	font-size: 18px;
+	padding: 10px 10px;
+}
+
+textarea{
+	border: 1px groove #bf715a;
+	margin: 10px 10px;
+	width: 325px;
+	height: 75px;
+	padding: 2px 2px;
+	resize: none;
+	font-family: 'archivo';
+}
+
+.meaty{
+	width: 353px;
+	height: auto;
+	position: fixed;
+	left: 50px;
+	top: 450px;
+	border: 4px groove #bf715a;
+	padding: 2px 2px;
+}
+
+span{
+	font-family: 'archivo';
+	font-size: 12px;
+}
+
+span a{
+	text-decoration: none;
+}
